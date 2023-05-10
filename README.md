@@ -1,9 +1,9 @@
-## How Can We Compare Wav Files and Classify them?
+# How Can We Compare Wav Files and Classify them?
 
-# Research Question
+## Research Question
 Since we’ve never worked with audio data or classification of audio data we wanted to try a binary example. We ask the question: can we classify animal noises using audio analysis?
 
-# Hypothesis
+## Hypothesis
 The noises made by dogs and cats can be used for classification strictly through analyzing audio samples. If numerical data is extracted from the audio then models can be trained to predict the species making the noise.
 
 This project aims to compare and classify wav files by extracting audio features and using a deep learning model. In this example, we are classifying audio clips of cats and dogs. This project is designed with flexibility in mind, making it easy to apply the same approach to other classification tasks, such as music genres.
