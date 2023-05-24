@@ -7,7 +7,7 @@ We ask the question: how do the audio features from songs, specifically Spotify 
 Is there a relationship between the some of these features such as tempo correlating with danceability/energy/liveness and if so how are they correlated. Additionally, how can we use these features to cluster songs based on these audio tracks of songs being coverted to numeric features?
 
 ## Hypothesis
-Certain audio features will be statistically different between the distribution of certain genres. 
+Certain audio features will be statistically different between the distribution of certain genres. These differences in distributions will allow us to perform Unsupervised Learning on the data to cluster the songs into different groups / listening personas. 
 
 For example, the mean "tempo" of Pop Artists will be higher than that of Ballad Singers since Pop songs tend to be more upbeat and fast. 
 
