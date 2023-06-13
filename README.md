@@ -18,9 +18,8 @@ If numerical data is extracted from the songs then models can be trained to clus
 1. [Overview](#overview)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Further Applications](#further-applications)
-6. [Contributors](#contributors)
+4. [Further Applications](#further-applications)
+5. [Contributors](#contributors)
 
 ## Overview
 
@@ -60,22 +59,6 @@ cd Group_Sp23_The_group_chat
 
 ```
 pip install -r requirements.txt
-```
-
-## Usage
-
-To use this project for classifying audio clips, follow these steps:
-
-1. Prepare your data: Scape the dataset from Spotify's API or directly download it manually.
-
-```
-python extract_audio_features.py 
-```
-
-3. Train and evaluate the model: Run the `train_and_evaluate.py` script to train the deep learning model and evaluate its performance:
-
-```
-python train_and_evaluate.py --input_file input_file.csv
 ```
 
 ## Further Applications
